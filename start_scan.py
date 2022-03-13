@@ -162,7 +162,7 @@ async def Process():
     i = await Info()
 
     """It is important to set the maximun number os requests that can be queued at once, and also the number of actual requets to submit per second.
-    The settings below will work well for a maximum of 25 requests at a time (defialt for the SSL Labs API), but might not be ideal if the
+    The settings below will work well for a maximum of 25 requests at a time (default for the SSL Labs API), but might not be ideal if the
     total number of requests is much larger than 25."""
 
     async with aiometer.amap(
