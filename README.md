@@ -14,9 +14,9 @@ This repo was originally forked from [ssllabs-scan](https://github.com/kyhau/ssl
 
 - Fixed failure to generate report when endpoints are uncontactable ("statusMessage")
 
-- Changed default analize API call from startNew="on" to "off"
+- Changed default analize API call from startNew="on" to fromCache="on" with a maxAge="1" (one hour for testing)
 
-- Changed scritit to use asyncio / httpx and aiometer
+- Changed scripit to use asyncio / httpx and aiometer
 
 ## Description
 
