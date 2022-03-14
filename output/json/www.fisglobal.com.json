@@ -4,24 +4,24 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207822482,
-  "testTime": 1647207897692,
+  "startTime": 1647298990196,
+  "testTime": 1647299067148,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
     {
-      "ipAddress": "104.68.100.128",
-      "serverName": "a104-68-100-128.deploy.static.akamaitechnologies.com",
+      "ipAddress": "23.74.33.46",
+      "serverName": "a23-74-33-46.deploy.static.akamaitechnologies.com",
       "statusMessage": "Ready",
       "grade": "A",
       "gradeTrustIgnored": "A",
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 75148,
+      "duration": 76909,
       "delegation": 2,
       "details": {
-        "hostStartTime": 1647207822482,
+        "hostStartTime": 1647298990196,
         "certChains": [
           {
             "id": "d18c12d3a97dcb61cad045f175198f9265580b09037b80e1ea01ed478344c2a9",
@@ -343,7 +343,7 @@
         "prefixDelegation": true,
         "nonPrefixDelegation": false,
         "vulnBeast": false,
-        "renegSupport": 2,
+        "renegSupport": 6,
         "sessionResumption": 2,
         "compressionMethods": 0,
         "supportsNpn": true,
@@ -1618,25 +1618,25 @@
             "source": "Chrome",
             "hostname": "www.fisglobal.com",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "www.fisglobal.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "www.fisglobal.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "www.fisglobal.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {

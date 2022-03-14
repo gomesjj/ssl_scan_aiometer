@@ -77,8 +77,12 @@ async def Fetch(client, request):
     except SystemExit:
         print("Caught SystemExit!")
     while results["status"] not in ["READY", "ERROR"]:
-        print(f"Status: {results['status']}, wait for 10 seconds...")
-        await asyncio.sleep(10)
+        if results["status"] == "DNS":
+            print(f"Status: {results['status']}, wait for 10 seconds...")
+            await asyncio.sleep(10)
+        else:
+            print(f"Status: {results['status']}, wait for 20 seconds...")
+            await asyncio.sleep(30) 
         results = await Callapi(client, request)
     return results
 
@@ -101,8 +105,8 @@ async def Callapi(client, request):
             raise SystemExit(2)
         elif resp == "429":
             print(f"Response code: {str(response.status_code)} - Client request rate too high"
-                  f"Waiting 60 sec until next retry...")
-            delay == 60
+                  f"Waiting 15 sec until next retry...")
+            delay == 15
         elif resp == "500":
             print(f"Response code: {str(response.status_code)} - Internal error"
                  f"Exiting the script")
@@ -116,11 +120,11 @@ async def Callapi(client, request):
                  f"Exiting the script")
             raise SystemExit(2)
         else:
-            delay = "30"
+            delay = "20"
         if attempts >= max_attempts:
             print(f"Response code: {str(response.status_code)} - Max attemptes reached"
-                  f"Waiting 30 minutes until next request")
-            delay == 1800
+                  f"Waiting 15 minutes until next request")
+            delay == 900
         await asyncio.sleep(delay)
         response = await client.send(request)
     return response.json()
@@ -159,8 +163,6 @@ async def Process():
 
         requests.append(httpx.Request(method="GET", url=api, params=payload))
 
-    i = await Info()
-
     """It is important to set the maximun number os requests that can be queued at once, and also the number of actual requets to submit per second.
     The settings below will work well for a maximum of 25 requests at a time (default for the SSL Labs API), but might not be ideal if the
     total number of requests is much larger than 25."""
@@ -168,7 +170,7 @@ async def Process():
     async with aiometer.amap(
         functools.partial(Fetch, client),
         requests,
-        max_at_once= i["maxAssessments"], # Maybe this is not such a good idea and "max_at_once" should be tweeked when more than 25 URLs are tested? 
+        max_at_once=25,
         max_per_second=0.5,
     ) as results:
         async for data in results:

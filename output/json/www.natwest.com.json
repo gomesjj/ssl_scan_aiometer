@@ -4,8 +4,8 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207824494,
-  "testTime": 1647207940041,
+  "startTime": 1647298992213,
+  "testTime": 1647299107199,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
@@ -17,10 +17,10 @@
       "hasWarnings": true,
       "isExceptional": false,
       "progress": 100,
-      "duration": 115379,
+      "duration": 114847,
       "delegation": 2,
       "details": {
-        "hostStartTime": 1647207824494,
+        "hostStartTime": 1647298992213,
         "certChains": [
           {
             "id": "ec5fc76fdc42c507f19f5d7ef94e1013a67111383819bc71e6990b0820a92790",
@@ -1633,25 +1633,25 @@
             "source": "Chrome",
             "hostname": "www.natwest.com",
             "status": "present",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "www.natwest.com",
             "status": "present",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "www.natwest.com",
             "status": "present",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "www.natwest.com",
             "status": "present",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -1686,15 +1686,15 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:43:56 GMT",
+              "Date: Mon, 14 Mar 2022 23:03:24 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
-              "Set-Cookie: ApplicationGatewayAffinityCORS=6df5fc7c4551db1606bd1b69e7e1a2d1; Path=/; SameSite=None; Secure",
-              "Set-Cookie: ApplicationGatewayAffinity=6df5fc7c4551db1606bd1b69e7e1a2d1; Path=/",
+              "Set-Cookie: ApplicationGatewayAffinityCORS=65610b4e0f3648e865897d6d813031bd; Path=/; SameSite=None; Secure",
+              "Set-Cookie: ApplicationGatewayAffinity=65610b4e0f3648e865897d6d813031bd; Path=/",
               "Server: Apache",
               "X-Frame-Options: SAMEORIGIN",
-              "X-Dispatcher: dispatcher4uksouth",
+              "X-Dispatcher: dispatcher3uksouth",
               "X-Vhost: Natwest Com",
               "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
               "Referrer-Policy: strict-origin-when-cross-origin",
@@ -1710,7 +1710,7 @@
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:43:56 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:24 GMT"
               },
               {
                 "name": "Content-Type",
@@ -1726,11 +1726,11 @@
               },
               {
                 "name": "Set-Cookie",
-                "value": "ApplicationGatewayAffinityCORS=6df5fc7c4551db1606bd1b69e7e1a2d1; Path=/; SameSite=None; Secure"
+                "value": "ApplicationGatewayAffinityCORS=65610b4e0f3648e865897d6d813031bd; Path=/; SameSite=None; Secure"
               },
               {
                 "name": "Set-Cookie",
-                "value": "ApplicationGatewayAffinity=6df5fc7c4551db1606bd1b69e7e1a2d1; Path=/"
+                "value": "ApplicationGatewayAffinity=65610b4e0f3648e865897d6d813031bd; Path=/"
               },
               {
                 "name": "Server",
@@ -1742,7 +1742,7 @@
               },
               {
                 "name": "X-Dispatcher",
-                "value": "dispatcher4uksouth"
+                "value": "dispatcher3uksouth"
               },
               {
                 "name": "X-Vhost",

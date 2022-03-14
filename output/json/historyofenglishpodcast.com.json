@@ -4,8 +4,8 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207830491,
-  "testTime": 1647207867589,
+  "startTime": 1647298998212,
+  "testTime": 1647299034143,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
@@ -18,10 +18,10 @@
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 37034,
+      "duration": 35851,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207830491,
+        "hostStartTime": 1647298998212,
         "certChains": [
           {
             "id": "5c1cc8cf9b7c0750328a749bfa116e8d0b6924c500ece8e820bf7b767b89accb",
@@ -1469,25 +1469,25 @@
             "source": "Chrome",
             "hostname": "historyofenglishpodcast.com",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "historyofenglishpodcast.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "historyofenglishpodcast.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "historyofenglishpodcast.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -1523,12 +1523,12 @@
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
               "Server: openresty",
-              "Date: Sun, 13 Mar 2022 21:43:58 GMT",
+              "Date: Mon, 14 Mar 2022 23:03:26 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "Accept-Ranges: bytes",
-              "Age: 9324",
+              "Age: 1673",
               "Content-Security-Policy: upgrade-insecure-requests",
               "Strict-Transport-Security: max-age=300",
               "Vary: Accept-Encoding, User-Agent",
@@ -1547,7 +1547,7 @@
               },
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:43:58 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:26 GMT"
               },
               {
                 "name": "Content-Type",
@@ -1567,7 +1567,7 @@
               },
               {
                 "name": "Age",
-                "value": "9324"
+                "value": "1673"
               },
               {
                 "name": "Content-Security-Policy",

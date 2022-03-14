@@ -4,23 +4,23 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207846523,
-  "testTime": 1647208033660,
+  "startTime": 1647299014249,
+  "testTime": 1647299201252,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
     {
-      "ipAddress": "104.18.5.22",
+      "ipAddress": "104.18.4.22",
       "statusMessage": "Ready",
       "grade": "B",
       "gradeTrustIgnored": "B",
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 93380,
+      "duration": 93353,
       "delegation": 2,
       "details": {
-        "hostStartTime": 1647207846523,
+        "hostStartTime": 1647299014249,
         "certChains": [
           {
             "id": "a4e4bc599805ba6766ba3b2e9be2d42a3f613ea38e8c54867c196995199478ec",
@@ -1779,25 +1779,25 @@
             "source": "Chrome",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -1832,27 +1832,27 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:44:13 GMT",
+              "Date: Mon, 14 Mar 2022 23:03:40 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "Link: <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; rel=preload; as=script;,</design_picker/c499793e17a0af6aaa097c70c71de5961227d0b0/javascript/_.js>; rel=preload; as=script;,</css_picker/moz/79bb8ed12fceaeef7fe678049799ee054c68d4ff/scaffolding.css>; rel=preload; as=style;,</css_picker/moz/79bb8ed12fceaeef7fe678049799ee054c68d4ff/design.css>; rel=preload; as=style;,</design_picker/5e49edbd1875f214e0decae1e24b200066780fa8/style/fonts/arimo/arimo-700.latin.woff2>; rel=preload; as=font; crossorigin;,</design_picker/5e49edbd1875f214e0decae1e24b200066780fa8/style/fonts/arimo/arimo-400.latin.woff2>; rel=preload; as=font; crossorigin;",
               "Cache-Control: max-age=0",
-              "Expires: Sun, 13 Mar 2022 21:44:13 GMT",
+              "Expires: Mon, 14 Mar 2022 23:03:40 GMT",
               "Vary: Accept-Encoding",
-              "X-Reg-BOFH: pfy02us",
+              "X-Reg-BOFH: pfy01us",
               "X-Clacks-Overhead: GNU Terry Pratchett, Lester Haines",
               "X-Content-Type-Options: nosniff",
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f3196bd1985a-SJC",
+              "CF-RAY: 6ec0a4df5d2c6426-SJC",
               "alt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:44:13 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:40 GMT"
               },
               {
                 "name": "Content-Type",
@@ -1876,7 +1876,7 @@
               },
               {
                 "name": "Expires",
-                "value": "Sun, 13 Mar 2022 21:44:13 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:40 GMT"
               },
               {
                 "name": "Vary",
@@ -1884,7 +1884,7 @@
               },
               {
                 "name": "X-Reg-BOFH",
-                "value": "pfy02us"
+                "value": "pfy01us"
               },
               {
                 "name": "X-Clacks-Overhead",
@@ -1908,7 +1908,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f3196bd1985a-SJC"
+                "value": "6ec0a4df5d2c6426-SJC"
               },
               {
                 "name": "alt-svc",
@@ -1931,17 +1931,17 @@
       }
     },
     {
-      "ipAddress": "104.18.4.22",
+      "ipAddress": "104.18.5.22",
       "statusMessage": "Ready",
       "grade": "B",
       "gradeTrustIgnored": "B",
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 93659,
+      "duration": 93586,
       "delegation": 2,
       "details": {
-        "hostStartTime": 1647207846523,
+        "hostStartTime": 1647299014249,
         "certChains": [
           {
             "id": "a4e4bc599805ba6766ba3b2e9be2d42a3f613ea38e8c54867c196995199478ec",
@@ -3700,25 +3700,25 @@
             "source": "Chrome",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "www.theregister.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -3753,13 +3753,13 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:45:46 GMT",
+              "Date: Mon, 14 Mar 2022 23:05:14 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "Link: <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; rel=preload; as=script;,</design_picker/c499793e17a0af6aaa097c70c71de5961227d0b0/javascript/_.js>; rel=preload; as=script;,</css_picker/moz/79bb8ed12fceaeef7fe678049799ee054c68d4ff/scaffolding.css>; rel=preload; as=style;,</css_picker/moz/79bb8ed12fceaeef7fe678049799ee054c68d4ff/design.css>; rel=preload; as=style;,</design_picker/5e49edbd1875f214e0decae1e24b200066780fa8/style/fonts/arimo/arimo-700.latin.woff2>; rel=preload; as=font; crossorigin;,</design_picker/5e49edbd1875f214e0decae1e24b200066780fa8/style/fonts/arimo/arimo-400.latin.woff2>; rel=preload; as=font; crossorigin;",
               "Cache-Control: max-age=0",
-              "Expires: Sun, 13 Mar 2022 21:45:46 GMT",
+              "Expires: Mon, 14 Mar 2022 23:05:14 GMT",
               "Vary: Accept-Encoding",
               "X-Reg-BOFH: pfy02us",
               "X-Clacks-Overhead: GNU Terry Pratchett, Lester Haines",
@@ -3767,13 +3767,13 @@
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f5608fea6435-SJC",
+              "CF-RAY: 6ec0a726cda596e4-SJC",
               "alt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:45:46 GMT"
+                "value": "Mon, 14 Mar 2022 23:05:14 GMT"
               },
               {
                 "name": "Content-Type",
@@ -3797,7 +3797,7 @@
               },
               {
                 "name": "Expires",
-                "value": "Sun, 13 Mar 2022 21:45:46 GMT"
+                "value": "Mon, 14 Mar 2022 23:05:14 GMT"
               },
               {
                 "name": "Vary",
@@ -3829,7 +3829,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f5608fea6435-SJC"
+                "value": "6ec0a726cda596e4-SJC"
               },
               {
                 "name": "alt-svc",

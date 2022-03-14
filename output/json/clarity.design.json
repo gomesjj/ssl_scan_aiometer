@@ -4,23 +4,23 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207834522,
-  "testTime": 1647207983603,
+  "startTime": 1647299002220,
+  "testTime": 1647299149989,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
     {
-      "ipAddress": "138.197.214.0",
+      "ipAddress": "2600:1f1c:471:9d01:72ed:135d:4dff:a852",
       "statusMessage": "Ready",
       "grade": "A+",
       "gradeTrustIgnored": "A+",
       "hasWarnings": false,
       "isExceptional": true,
       "progress": 100,
-      "duration": 38020,
+      "duration": 36774,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207834522,
+        "hostStartTime": 1647299002220,
         "certChains": [
           {
             "id": "e770ca2d81bce87c62dd673bd1a76316d77b20d754075c24bacd2f6e676d97cc",
@@ -1589,25 +1589,25 @@
             "source": "Chrome",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -1642,21 +1642,21 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Age: 148296",
+              "Age: 51707",
               "Cache-Control: public, max-age=0, must-revalidate",
               "Content-Length: 43112",
               "Content-Type: text/html; charset=UTF-8",
-              "Date: Sat, 12 Mar 2022 04:32:25 GMT",
-              "Etag: \"a59266343e4635f2151ca76a23ef1c42-ssl\"",
+              "Date: Mon, 14 Mar 2022 08:41:41 GMT",
+              "Etag: \"da84386e21547b5898b6fb2f4a7b5a1d-ssl\"",
               "Server: Netlify",
               "Strict-Transport-Security: max-age=31536000",
-              "X-Nf-Request-Id: 01FY2KSZPY43C7R9SXR5G2FF6A",
+              "X-Nf-Request-Id: 01FY5AR6EC8P5NK2ZE5VXQ2VF1",
               "Connection: close"
             ],
             "responseHeaders": [
               {
                 "name": "Age",
-                "value": "148296"
+                "value": "51707"
               },
               {
                 "name": "Cache-Control",
@@ -1672,11 +1672,11 @@
               },
               {
                 "name": "Date",
-                "value": "Sat, 12 Mar 2022 04:32:25 GMT"
+                "value": "Mon, 14 Mar 2022 08:41:41 GMT"
               },
               {
                 "name": "Etag",
-                "value": "\"a59266343e4635f2151ca76a23ef1c42-ssl\""
+                "value": "\"da84386e21547b5898b6fb2f4a7b5a1d-ssl\""
               },
               {
                 "name": "Server",
@@ -1688,7 +1688,7 @@
               },
               {
                 "name": "X-Nf-Request-Id",
-                "value": "01FY2KSZPY43C7R9SXR5G2FF6A"
+                "value": "01FY5AR6EC8P5NK2ZE5VXQ2VF1"
               },
               {
                 "name": "Connection",
@@ -1711,17 +1711,17 @@
       }
     },
     {
-      "ipAddress": "2600:1f1c:471:9d00:c3a7:6694:870f:2072",
+      "ipAddress": "138.68.60.208",
       "statusMessage": "Ready",
       "grade": "A+",
       "gradeTrustIgnored": "A+",
       "hasWarnings": false,
       "isExceptional": true,
       "progress": 100,
-      "duration": 37195,
+      "duration": 37162,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207834522,
+        "hostStartTime": 1647299002220,
         "certChains": [
           {
             "id": "e770ca2d81bce87c62dd673bd1a76316d77b20d754075c24bacd2f6e676d97cc",
@@ -3290,25 +3290,25 @@
             "source": "Chrome",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -3343,29 +3343,25 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Age: 174460",
+              "Age: 1",
               "Cache-Control: public, max-age=0, must-revalidate",
-              "Content-Length: 43112",
               "Content-Type: text/html; charset=UTF-8",
-              "Date: Fri, 11 Mar 2022 21:16:59 GMT",
-              "Etag: \"a59266343e4635f2151ca76a23ef1c42-ssl\"",
+              "Date: Mon, 14 Mar 2022 23:04:06 GMT",
+              "Etag: \"da84386e21547b5898b6fb2f4a7b5a1d-ssl\"",
               "Server: Netlify",
               "Strict-Transport-Security: max-age=31536000",
-              "X-Nf-Request-Id: 01FY2KV4Q87YN02X74NDA26D05",
-              "Connection: close"
+              "X-Nf-Request-Id: 01FY5ASAJMVBSDWW33RP3PPGTX",
+              "Connection: close",
+              "Transfer-Encoding: chunked"
             ],
             "responseHeaders": [
               {
                 "name": "Age",
-                "value": "174460"
+                "value": "1"
               },
               {
                 "name": "Cache-Control",
                 "value": "public, max-age=0, must-revalidate"
-              },
-              {
-                "name": "Content-Length",
-                "value": "43112"
               },
               {
                 "name": "Content-Type",
@@ -3373,11 +3369,11 @@
               },
               {
                 "name": "Date",
-                "value": "Fri, 11 Mar 2022 21:16:59 GMT"
+                "value": "Mon, 14 Mar 2022 23:04:06 GMT"
               },
               {
                 "name": "Etag",
-                "value": "\"a59266343e4635f2151ca76a23ef1c42-ssl\""
+                "value": "\"da84386e21547b5898b6fb2f4a7b5a1d-ssl\""
               },
               {
                 "name": "Server",
@@ -3389,11 +3385,15 @@
               },
               {
                 "name": "X-Nf-Request-Id",
-                "value": "01FY2KV4Q87YN02X74NDA26D05"
+                "value": "01FY5ASAJMVBSDWW33RP3PPGTX"
               },
               {
                 "name": "Connection",
                 "value": "close"
+              },
+              {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
               }
             ],
             "fragileServer": false
@@ -3412,17 +3412,17 @@
       }
     },
     {
-      "ipAddress": "2604:a880:2:d0:0:0:212a:f001",
+      "ipAddress": "2604:a880:2:d0:0:0:2103:a001",
       "statusMessage": "Ready",
       "grade": "A+",
       "gradeTrustIgnored": "A+",
       "hasWarnings": false,
       "isExceptional": true,
       "progress": 100,
-      "duration": 36492,
+      "duration": 36626,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207834522,
+        "hostStartTime": 1647299002220,
         "certChains": [
           {
             "id": "e770ca2d81bce87c62dd673bd1a76316d77b20d754075c24bacd2f6e676d97cc",
@@ -4991,25 +4991,25 @@
             "source": "Chrome",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -5044,29 +5044,25 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Age: 148371",
+              "Age: 1",
               "Cache-Control: public, max-age=0, must-revalidate",
-              "Content-Length: 43112",
               "Content-Type: text/html; charset=UTF-8",
-              "Date: Sat, 12 Mar 2022 04:32:25 GMT",
-              "Etag: \"a59266343e4635f2151ca76a23ef1c42-ssl\"",
+              "Date: Mon, 14 Mar 2022 23:04:43 GMT",
+              "Etag: \"da84386e21547b5898b6fb2f4a7b5a1d-ssl\"",
               "Server: Netlify",
               "Strict-Transport-Security: max-age=31536000",
-              "X-Nf-Request-Id: 01FY2KW907ATPP7FAAT9KN447D",
-              "Connection: close"
+              "X-Nf-Request-Id: 01FY5ATEPCP41JNAWS3RJ1YECT",
+              "Connection: close",
+              "Transfer-Encoding: chunked"
             ],
             "responseHeaders": [
               {
                 "name": "Age",
-                "value": "148371"
+                "value": "1"
               },
               {
                 "name": "Cache-Control",
                 "value": "public, max-age=0, must-revalidate"
-              },
-              {
-                "name": "Content-Length",
-                "value": "43112"
               },
               {
                 "name": "Content-Type",
@@ -5074,11 +5070,11 @@
               },
               {
                 "name": "Date",
-                "value": "Sat, 12 Mar 2022 04:32:25 GMT"
+                "value": "Mon, 14 Mar 2022 23:04:43 GMT"
               },
               {
                 "name": "Etag",
-                "value": "\"a59266343e4635f2151ca76a23ef1c42-ssl\""
+                "value": "\"da84386e21547b5898b6fb2f4a7b5a1d-ssl\""
               },
               {
                 "name": "Server",
@@ -5090,11 +5086,15 @@
               },
               {
                 "name": "X-Nf-Request-Id",
-                "value": "01FY2KW907ATPP7FAAT9KN447D"
+                "value": "01FY5ATEPCP41JNAWS3RJ1YECT"
               },
               {
                 "name": "Connection",
                 "value": "close"
+              },
+              {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
               }
             ],
             "fragileServer": false
@@ -5121,10 +5121,10 @@
       "hasWarnings": false,
       "isExceptional": true,
       "progress": 100,
-      "duration": 37252,
+      "duration": 37091,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207834522,
+        "hostStartTime": 1647299002220,
         "certChains": [
           {
             "id": "e770ca2d81bce87c62dd673bd1a76316d77b20d754075c24bacd2f6e676d97cc",
@@ -6693,25 +6693,25 @@
             "source": "Chrome",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "clarity.design",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -6746,29 +6746,25 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Age: 16000",
+              "Age: 0",
               "Cache-Control: public, max-age=0, must-revalidate",
-              "Content-Length: 43112",
               "Content-Type: text/html; charset=UTF-8",
-              "Date: Sun, 13 Mar 2022 17:19:13 GMT",
-              "Etag: \"a59266343e4635f2151ca76a23ef1c42-ssl\"",
+              "Date: Mon, 14 Mar 2022 23:05:19 GMT",
+              "Etag: \"da84386e21547b5898b6fb2f4a7b5a1d-ssl\"",
               "Server: Netlify",
               "Strict-Transport-Security: max-age=31536000",
-              "X-Nf-Request-Id: 01FY2KXCSAB8D5MSC6MKT6Q3RT",
-              "Connection: close"
+              "X-Nf-Request-Id: 01FY5AVJN6WQTR38QVSM9ZN7VB",
+              "Connection: close",
+              "Transfer-Encoding: chunked"
             ],
             "responseHeaders": [
               {
                 "name": "Age",
-                "value": "16000"
+                "value": "0"
               },
               {
                 "name": "Cache-Control",
                 "value": "public, max-age=0, must-revalidate"
-              },
-              {
-                "name": "Content-Length",
-                "value": "43112"
               },
               {
                 "name": "Content-Type",
@@ -6776,11 +6772,11 @@
               },
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 17:19:13 GMT"
+                "value": "Mon, 14 Mar 2022 23:05:19 GMT"
               },
               {
                 "name": "Etag",
-                "value": "\"a59266343e4635f2151ca76a23ef1c42-ssl\""
+                "value": "\"da84386e21547b5898b6fb2f4a7b5a1d-ssl\""
               },
               {
                 "name": "Server",
@@ -6792,11 +6788,15 @@
               },
               {
                 "name": "X-Nf-Request-Id",
-                "value": "01FY2KXCSAB8D5MSC6MKT6Q3RT"
+                "value": "01FY5AVJN6WQTR38QVSM9ZN7VB"
               },
               {
                 "name": "Connection",
                 "value": "close"
+              },
+              {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
               }
             ],
             "fragileServer": false

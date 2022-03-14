@@ -4,23 +4,23 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207854530,
-  "testTime": 1647207977340,
+  "startTime": 1647299022267,
+  "testTime": 1647299114344,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
     {
-      "ipAddress": "52.142.124.215",
+      "ipAddress": "52.250.42.157",
       "statusMessage": "Ready",
       "grade": "A+",
       "gradeTrustIgnored": "A+",
       "hasWarnings": false,
       "isExceptional": true,
       "progress": 100,
-      "duration": 122694,
+      "duration": 91920,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207854530,
+        "hostStartTime": 1647299022267,
         "certChains": [
           {
             "id": "d4d27e232d0153aef1b2651906cb4ef9abd331594d2ccfa85faeaaea7a927f12",
@@ -1598,25 +1598,25 @@
             "source": "Chrome",
             "hostname": "duckduckgo.com",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "duckduckgo.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "duckduckgo.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "duckduckgo.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -1652,12 +1652,12 @@
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
               "Server: nginx",
-              "Date: Sun, 13 Mar 2022 21:44:24 GMT",
+              "Date: Mon, 14 Mar 2022 23:03:48 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Content-Length: 5777",
               "Connection: close",
               "Vary: Accept-Encoding",
-              "ETag: \"622e17ae-1691\"",
+              "ETag: \"622f7b23-1691\"",
               "Strict-Transport-Security: max-age=31536000",
               "Permissions-Policy: interest-cohort=()",
               "Content-Security-Policy: default-src 'none' ; connect-src  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; manifest-src  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; media-src  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; script-src blob:  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ 'unsafe-inline' 'unsafe-eval' ; font-src data:  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; img-src data:  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; style-src  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ 'unsafe-inline' ; object-src 'none' ; worker-src blob: ; child-src blob:  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; frame-src blob:  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; form-action  https://duckduckgo.com https://*.duckduckgo.com https://3g2upl4pq6kufc4m.onion/ https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ ; frame-ancestors 'self' ; base-uri 'self' ; block-all-mixed-content ;",
@@ -1666,7 +1666,7 @@
               "X-Content-Type-Options: nosniff",
               "Referrer-Policy: origin",
               "Expect-CT: max-age=0",
-              "Expires: Sun, 13 Mar 2022 21:44:23 GMT",
+              "Expires: Mon, 14 Mar 2022 23:03:47 GMT",
               "Cache-Control: no-cache",
               "Accept-Ranges: bytes"
             ],
@@ -1677,7 +1677,7 @@
               },
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:44:24 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:48 GMT"
               },
               {
                 "name": "Content-Type",
@@ -1697,7 +1697,7 @@
               },
               {
                 "name": "ETag",
-                "value": "\"622e17ae-1691\""
+                "value": "\"622f7b23-1691\""
               },
               {
                 "name": "Strict-Transport-Security",
@@ -1733,7 +1733,7 @@
               },
               {
                 "name": "Expires",
-                "value": "Sun, 13 Mar 2022 21:44:23 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:47 GMT"
               },
               {
                 "name": "Cache-Control",

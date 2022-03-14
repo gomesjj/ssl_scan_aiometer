@@ -4,23 +4,23 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207836510,
-  "testTime": 1647207985017,
+  "startTime": 1647299004223,
+  "testTime": 1647299151324,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
     {
-      "ipAddress": "104.16.59.21",
+      "ipAddress": "104.16.58.21",
       "statusMessage": "Ready",
       "grade": "A+",
       "gradeTrustIgnored": "A+",
       "hasWarnings": false,
       "isExceptional": true,
       "progress": 100,
-      "duration": 75148,
+      "duration": 73760,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207836510,
+        "hostStartTime": 1647299004223,
         "certChains": [
           {
             "id": "df97aa99214021208b4113f8cec7b99732d52e3f1a88cd016fd2e46d1f8e7e77",
@@ -341,7 +341,8 @@
         "supportsAlpn": true,
         "alpnProtocols": "h2 http/1.1",
         "sessionTickets": 1,
-        "ocspStapling": false,
+        "ocspStapling": true,
+        "staplingRevocationStatus": 2,
         "sniRequired": false,
         "httpStatusCode": 200,
         "supportsRc4": false,
@@ -1655,25 +1656,25 @@
             "source": "Chrome",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -1708,28 +1709,28 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:44:03 GMT",
+              "Date: Mon, 14 Mar 2022 23:03:30 GMT",
               "Content-Type: text/html;charset=utf-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "Expires: Thu, 01 Jan 1970 00:00:00 GMT",
               "X-XSS-Protection: 1; mode=block",
-              "Set-Cookie: JSESSIONID=gc-app-081fvgoqu4s4cr91vu2g5exe7vvm2497616.gc-app-08; Path=/; Secure; HttpOnly; SameSite=None; Secure",
+              "Set-Cookie: JSESSIONID=gc-app-181xvp45a5moqfczt678dqaobwd266480.gc-app-18; Path=/; Secure; HttpOnly; SameSite=None; Secure",
               "Vary: Accept-Encoding",
               "P3P: CP=\"NON DSP COR CURa PSAa PSDa OUR NOR BUS PUR COM NAV STA\"",
               "Cache-Control: private,max-age=0,must-revalidate",
               "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;",
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-              "Set-Cookie: SERVERID=b84d058b09911e7097eedc147d97fab7c5f1de6b; path=/; Secure; SameSite=None",
-              "Set-Cookie: __cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6SdcogAfTyAvSdzt; SameSite=Lax; path=/; expires=Mon, 14-Mar-22 20:44:03 GMT; HttpOnly",
+              "Set-Cookie: SERVERID=86d3992ee075c948c0e8f56d3d14ba76d969e865; path=/; Secure; SameSite=None",
+              "Set-Cookie: __cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6SddCQCmAXJL9f88; SameSite=Lax; path=/; expires=Tue, 15-Mar-22 22:03:30 GMT; HttpOnly",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f2db1a6897b8-SJC"
+              "CF-RAY: 6ec0a49edbed986d-SJC"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:44:03 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:30 GMT"
               },
               {
                 "name": "Content-Type",
@@ -1753,7 +1754,7 @@
               },
               {
                 "name": "Set-Cookie",
-                "value": "JSESSIONID=gc-app-081fvgoqu4s4cr91vu2g5exe7vvm2497616.gc-app-08; Path=/; Secure; HttpOnly; SameSite=None; Secure"
+                "value": "JSESSIONID=gc-app-181xvp45a5moqfczt678dqaobwd266480.gc-app-18; Path=/; Secure; HttpOnly; SameSite=None; Secure"
               },
               {
                 "name": "Vary",
@@ -1781,11 +1782,11 @@
               },
               {
                 "name": "Set-Cookie",
-                "value": "SERVERID=b84d058b09911e7097eedc147d97fab7c5f1de6b; path=/; Secure; SameSite=None"
+                "value": "SERVERID=86d3992ee075c948c0e8f56d3d14ba76d969e865; path=/; Secure; SameSite=None"
               },
               {
                 "name": "Set-Cookie",
-                "value": "__cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6SdcogAfTyAvSdzt; SameSite=Lax; path=/; expires=Mon, 14-Mar-22 20:44:03 GMT; HttpOnly"
+                "value": "__cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6SddCQCmAXJL9f88; SameSite=Lax; path=/; expires=Tue, 15-Mar-22 22:03:30 GMT; HttpOnly"
               },
               {
                 "name": "Server",
@@ -1793,7 +1794,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f2db1a6897b8-SJC"
+                "value": "6ec0a49edbed986d-SJC"
               }
             ],
             "fragileServer": false
@@ -1811,17 +1812,17 @@
       }
     },
     {
-      "ipAddress": "104.16.58.21",
+      "ipAddress": "104.16.59.21",
       "statusMessage": "Ready",
       "grade": "A+",
       "gradeTrustIgnored": "A+",
       "hasWarnings": false,
       "isExceptional": true,
       "progress": 100,
-      "duration": 73233,
+      "duration": 73267,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207836510,
+        "hostStartTime": 1647299004223,
         "certChains": [
           {
             "id": "df97aa99214021208b4113f8cec7b99732d52e3f1a88cd016fd2e46d1f8e7e77",
@@ -2142,7 +2143,8 @@
         "supportsAlpn": true,
         "alpnProtocols": "h2 http/1.1",
         "sessionTickets": 1,
-        "ocspStapling": false,
+        "ocspStapling": true,
+        "staplingRevocationStatus": 2,
         "sniRequired": false,
         "httpStatusCode": 200,
         "supportsRc4": false,
@@ -3456,25 +3458,25 @@
             "source": "Chrome",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "rally1.rallydev.com",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -3509,28 +3511,28 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:45:17 GMT",
+              "Date: Mon, 14 Mar 2022 23:04:44 GMT",
               "Content-Type: text/html;charset=utf-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "Expires: Thu, 01 Jan 1970 00:00:00 GMT",
               "X-XSS-Protection: 1; mode=block",
-              "Set-Cookie: JSESSIONID=gc-app-171oo11jletp2tgmldvpsrpeizk2833291.gc-app-17; Path=/; Secure; HttpOnly; SameSite=None; Secure",
+              "Set-Cookie: JSESSIONID=gc-app-101iv96h2h60brdmaaxah05l0yj276343.gc-app-10; Path=/; Secure; HttpOnly; SameSite=None; Secure",
               "Vary: Accept-Encoding",
               "P3P: CP=\"NON DSP COR CURa PSAa PSDa OUR NOR BUS PUR COM NAV STA\"",
               "Cache-Control: private,max-age=0,must-revalidate",
               "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;",
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-              "Set-Cookie: SERVERID=937ee5fd4a1b9432a982aa9c812d156ff9bd8d23; path=/; Secure; SameSite=None",
-              "Set-Cookie: __cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6SddkJoCDdBCRkFW; SameSite=Lax; path=/; expires=Mon, 14-Mar-22 20:45:17 GMT; HttpOnly",
+              "Set-Cookie: SERVERID=f7e16a035066f100a162115b3c04edc221cdfa69; path=/; Secure; SameSite=None",
+              "Set-Cookie: __cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6Sde92qHvBJc8mNk; SameSite=Lax; path=/; expires=Tue, 15-Mar-22 22:04:44 GMT; HttpOnly",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f4aee8e09658-SJC"
+              "CF-RAY: 6ec0a66c087696ae-SJC"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:45:17 GMT"
+                "value": "Mon, 14 Mar 2022 23:04:44 GMT"
               },
               {
                 "name": "Content-Type",
@@ -3554,7 +3556,7 @@
               },
               {
                 "name": "Set-Cookie",
-                "value": "JSESSIONID=gc-app-171oo11jletp2tgmldvpsrpeizk2833291.gc-app-17; Path=/; Secure; HttpOnly; SameSite=None; Secure"
+                "value": "JSESSIONID=gc-app-101iv96h2h60brdmaaxah05l0yj276343.gc-app-10; Path=/; Secure; HttpOnly; SameSite=None; Secure"
               },
               {
                 "name": "Vary",
@@ -3582,11 +3584,11 @@
               },
               {
                 "name": "Set-Cookie",
-                "value": "SERVERID=937ee5fd4a1b9432a982aa9c812d156ff9bd8d23; path=/; Secure; SameSite=None"
+                "value": "SERVERID=f7e16a035066f100a162115b3c04edc221cdfa69; path=/; Secure; SameSite=None"
               },
               {
                 "name": "Set-Cookie",
-                "value": "__cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6SddkJoCDdBCRkFW; SameSite=Lax; path=/; expires=Mon, 14-Mar-22 20:45:17 GMT; HttpOnly"
+                "value": "__cflb=0H28vdwpVg78uW6v5NLDw9JcXjM6Sde92qHvBJc8mNk; SameSite=Lax; path=/; expires=Tue, 15-Mar-22 22:04:44 GMT; HttpOnly"
               },
               {
                 "name": "Server",
@@ -3594,7 +3596,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f4aee8e09658-SJC"
+                "value": "6ec0a66c087696ae-SJC"
               }
             ],
             "fragileServer": false

@@ -1,29 +1,32 @@
 #Host,Grade,Warnings,Cert Expiry,Chain Status,Forward Secrecy,Heartbeat,Beast,Drown,Heartbleed,FREAK,OpenSSL CCS,OpenSSL LuckyMinus20,POODLE,POODLE TLS,Support RC4,RC4 with modern protocols,RC4 Only,TLS 1.3,TLS 1.2,TLS 1.1,TLS 1.0,SSL 3.0 INSECURE,SSL 2.0 INSECURE
+github.com,A+,False,2022-05-10,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
+www.apple.com,B,False,2022-10-08,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
+www.apple.com,B,False,2022-10-08,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
+www.apple.com,B,False,2022-10-08,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
 historyofenglishpodcast.com,A,False,2022-12-25,contains a self-signed root certificate,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
 www.fisglobal.com,A,False,2022-05-28,contains a self-signed root certificate,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 arstechnica.com,A,False,2022-12-27,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
 arstechnica.com,A,False,2022-12-27,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
-github.com,A+,False,2022-05-10,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 www.wikipedia.org,A+,False,2022-04-11,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 www.wikipedia.org,A+,False,2022-04-11,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
-www.natwest.com,B,True,2022-04-08,contains a self-signed root certificate,With some browsers WEAK,True,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
 theoatmeal.com,B,True,2022-07-21,none,With some browsers WEAK,True,True,False,False,False,False,False,False,False,True,False,False,No,Yes,Yes,Yes,No,No
 duckduckgo.com,A+,False,2022-11-26,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
+www.natwest.com,B,True,2022-04-08,contains a self-signed root certificate,With some browsers WEAK,True,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
 clarity.design,A+,False,2022-06-02,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 clarity.design,A+,False,2022-06-02,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 clarity.design,A+,False,2022-06-02,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 clarity.design,A+,False,2022-06-02,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 rally1.rallydev.com,A+,False,2022-07-09,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
 rally1.rallydev.com,A+,False,2022-07-09,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
-knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
-knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
-knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
-knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 wiki.alpinelinux.org,B,False,2022-05-06,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,No,No,No
+knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
+knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
+knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
+knowablemagazine.org,A+,False,2022-09-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 www.theregister.com,B,False,2022-06-10,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,No,No,No
 www.theregister.com,B,False,2022-06-10,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,No,No,No
-google.com,B,False,2022-05-12,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
-google.com,B,False,2022-05-12,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
+google.com,B,False,2022-05-23,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
+google.com,B,False,2022-05-23,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
 www.python.org,A+,False,2022-11-23,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 www.python.org,A+,False,2022-11-23,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 www.ui.com,A,False,2022-11-07,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,No,Yes,No,No,No,No
@@ -45,9 +48,6 @@ www.cisecurity.org,A,False,2022-12-04,none,Yes (with most browsers) ROBUST,False
 www.cisecurity.org,A,False,2022-12-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 www.cisecurity.org,A,False,2022-12-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
 www.cisecurity.org,A,False,2022-12-04,none,Yes (with most browsers) ROBUST,False,False,False,False,False,False,False,False,False,False,False,False,Yes,Yes,No,No,No,No
-www.apple.com,B,False,2022-10-08,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
-www.apple.com,B,False,2022-10-08,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
-www.apple.com,B,False,2022-10-08,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
 www.microsoft.com,B,False,2022-07-28,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
 www.microsoft.com,B,False,2022-07-28,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No
 www.microsoft.com,B,False,2022-07-28,none,With modern browsers,False,True,False,False,False,False,False,False,False,False,False,False,Yes,Yes,Yes,Yes,No,No

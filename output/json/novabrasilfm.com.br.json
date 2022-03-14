@@ -4,8 +4,8 @@
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1647207856535,
-  "testTime": 1647208098610,
+  "startTime": 1647299024254,
+  "testTime": 1647299263734,
   "engineVersion": "2.1.10",
   "criteriaVersion": "2009q",
   "endpoints": [
@@ -17,10 +17,10 @@
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 60572,
+      "duration": 59018,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207856535,
+        "hostStartTime": 1647299024254,
         "certChains": [
           {
             "id": "9e9092f230c674f40bf794dcd3188e1967ab1a2d25a215034f9f54382bcd35f2",
@@ -1735,25 +1735,25 @@
             "source": "Chrome",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -1788,23 +1788,23 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:44:24 GMT",
+              "Date: Mon, 14 Mar 2022 23:03:52 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "link: <https://novabrasilfm.com.br/wp-json/>; rel=\"https://api.w.org/\"",
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=foaPaC%2F9Lg83IWy1SGtvvn5fvR8nL65UMvv5RWduI5ywx8c%2By4%2FdBoYD4Dt33nirdhRhOLtK%2B8qSNkV9HSkpgxhxwpG6pUnEm1C3awyiiE9HpFqu%2FyDO%2FAiwQpi%2BFiorHUOpW9ge\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=azF2yZfce1a2Lkszmgu80erDLNEgNyawjqJqEC70G1B47HrdFUCs60hl3qscIYlrvNeaU3MAMnctrFkV4MKoG0wPf4ZUBsPj57dk9gKnKd79fk02sf9N2ppex2HNjSaivszRp2M5\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
               "NEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f361184c96d8-SJC",
+              "CF-RAY: 6ec0a525eca496a2-SJC",
               "alt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:44:24 GMT"
+                "value": "Mon, 14 Mar 2022 23:03:52 GMT"
               },
               {
                 "name": "Content-Type",
@@ -1832,7 +1832,7 @@
               },
               {
                 "name": "Report-To",
-                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=foaPaC%2F9Lg83IWy1SGtvvn5fvR8nL65UMvv5RWduI5ywx8c%2By4%2FdBoYD4Dt33nirdhRhOLtK%2B8qSNkV9HSkpgxhxwpG6pUnEm1C3awyiiE9HpFqu%2FyDO%2FAiwQpi%2BFiorHUOpW9ge\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=azF2yZfce1a2Lkszmgu80erDLNEgNyawjqJqEC70G1B47HrdFUCs60hl3qscIYlrvNeaU3MAMnctrFkV4MKoG0wPf4ZUBsPj57dk9gKnKd79fk02sf9N2ppex2HNjSaivszRp2M5\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
               },
               {
                 "name": "NEL",
@@ -1844,7 +1844,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f361184c96d8-SJC"
+                "value": "6ec0a525eca496a2-SJC"
               },
               {
                 "name": "alt-svc",
@@ -1874,10 +1874,10 @@
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 58403,
+      "duration": 58638,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207856535,
+        "hostStartTime": 1647299024254,
         "certChains": [
           {
             "id": "9e9092f230c674f40bf794dcd3188e1967ab1a2d25a215034f9f54382bcd35f2",
@@ -3592,25 +3592,25 @@
             "source": "Chrome",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -3645,23 +3645,23 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:45:25 GMT",
+              "Date: Mon, 14 Mar 2022 23:04:51 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "link: <https://novabrasilfm.com.br/wp-json/>; rel=\"https://api.w.org/\"",
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ufwm1yJiY6qnL0brKMe7m5kQz3FZwNDV7CKI10BJfoFy8sWyQ96Ke4TL91J1x9g%2Fci1aHrhtUaXkYins4QLkwCobiqxeUgm5EdrMFjT%2F9RklW%2Bl1L%2BE2enI32MF45y3JtO%2FvFhAsHc0zGrD1YZH%2Fke2g\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=HjvNYCjb4BDEO%2FPcYKzCXKEzW8Vo1Pl9SVimfcXE5F7b%2FRWR2jj8vV8mFVdf9LLYsJPpnKIS6KH2OtiCDuSDWgL7mFqeB3F2xvTX4YhF3NcseePotXgPen9nAK%2B8rh8zaedXWjxKsQnQpEE2qhjeJjYK\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
               "NEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f4da08852524-SJC",
+              "CF-RAY: 6ec0a6965f949e6a-SJC",
               "alt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:45:25 GMT"
+                "value": "Mon, 14 Mar 2022 23:04:51 GMT"
               },
               {
                 "name": "Content-Type",
@@ -3689,7 +3689,7 @@
               },
               {
                 "name": "Report-To",
-                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ufwm1yJiY6qnL0brKMe7m5kQz3FZwNDV7CKI10BJfoFy8sWyQ96Ke4TL91J1x9g%2Fci1aHrhtUaXkYins4QLkwCobiqxeUgm5EdrMFjT%2F9RklW%2Bl1L%2BE2enI32MF45y3JtO%2FvFhAsHc0zGrD1YZH%2Fke2g\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=HjvNYCjb4BDEO%2FPcYKzCXKEzW8Vo1Pl9SVimfcXE5F7b%2FRWR2jj8vV8mFVdf9LLYsJPpnKIS6KH2OtiCDuSDWgL7mFqeB3F2xvTX4YhF3NcseePotXgPen9nAK%2B8rh8zaedXWjxKsQnQpEE2qhjeJjYK\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
               },
               {
                 "name": "NEL",
@@ -3701,7 +3701,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f4da08852524-SJC"
+                "value": "6ec0a6965f949e6a-SJC"
               },
               {
                 "name": "alt-svc",
@@ -3731,10 +3731,10 @@
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 63061,
+      "duration": 62289,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207856535,
+        "hostStartTime": 1647299024254,
         "certChains": [
           {
             "id": "9e9092f230c674f40bf794dcd3188e1967ab1a2d25a215034f9f54382bcd35f2",
@@ -5449,25 +5449,25 @@
             "source": "Chrome",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -5502,23 +5502,23 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:46:24 GMT",
+              "Date: Mon, 14 Mar 2022 23:05:50 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "link: <https://novabrasilfm.com.br/wp-json/>; rel=\"https://api.w.org/\"",
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=BMgHhz9yJ7XAjzNEa4JAnqiP0mwD%2Fx8GBykpSzMC%2FSc%2FMYnXU7zvMkgTmcUG2%2FkIU8BB%2Fd7ZSTU7xuEMlPUY2eEgYdkmBBo%2B1zVDP9BIMEopLj3%2BrbxhUlLFeF5JGedo15jkGUUB\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=WyCxefdEDLAyH1mMT18rcGmtg%2BC%2B5epQY8VkXcgpexnoy3J90O7G258Y5lxt0ar2MpjnEnkoRPGUxmgw7%2Fd0I6MEC707ZwLf7OvfVA10%2Bpuu2zd2jBn1JjNPrrfFD%2F%2BrMOnW3o2Y\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
               "NEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f64a19137ccb-LAX",
+              "CF-RAY: 6ec0a8081a597bfd-LAX",
               "alt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:46:24 GMT"
+                "value": "Mon, 14 Mar 2022 23:05:50 GMT"
               },
               {
                 "name": "Content-Type",
@@ -5546,7 +5546,7 @@
               },
               {
                 "name": "Report-To",
-                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=BMgHhz9yJ7XAjzNEa4JAnqiP0mwD%2Fx8GBykpSzMC%2FSc%2FMYnXU7zvMkgTmcUG2%2FkIU8BB%2Fd7ZSTU7xuEMlPUY2eEgYdkmBBo%2B1zVDP9BIMEopLj3%2BrbxhUlLFeF5JGedo15jkGUUB\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=WyCxefdEDLAyH1mMT18rcGmtg%2BC%2B5epQY8VkXcgpexnoy3J90O7G258Y5lxt0ar2MpjnEnkoRPGUxmgw7%2Fd0I6MEC707ZwLf7OvfVA10%2Bpuu2zd2jBn1JjNPrrfFD%2F%2BrMOnW3o2Y\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
               },
               {
                 "name": "NEL",
@@ -5558,7 +5558,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f64a19137ccb-LAX"
+                "value": "6ec0a8081a597bfd-LAX"
               },
               {
                 "name": "alt-svc",
@@ -5588,10 +5588,10 @@
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 59880,
+      "duration": 59376,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1647207856535,
+        "hostStartTime": 1647299024254,
         "certChains": [
           {
             "id": "9e9092f230c674f40bf794dcd3188e1967ab1a2d25a215034f9f54382bcd35f2",
@@ -7306,25 +7306,25 @@
             "source": "Chrome",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647204962778
+            "sourceTime": 1647296463912
           },
           {
             "source": "Edge",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "Firefox",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           },
           {
             "source": "IE",
             "hostname": "novabrasilfm.com.br",
             "status": "absent",
-            "sourceTime": 1647205681970
+            "sourceTime": 1647296466167
           }
         ],
         "hpkpPolicy": {
@@ -7359,23 +7359,23 @@
             ],
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
-              "Date: Sun, 13 Mar 2022 21:47:26 GMT",
+              "Date: Mon, 14 Mar 2022 23:06:52 GMT",
               "Content-Type: text/html; charset=UTF-8",
               "Transfer-Encoding: chunked",
               "Connection: close",
               "link: <https://novabrasilfm.com.br/wp-json/>; rel=\"https://api.w.org/\"",
               "CF-Cache-Status: DYNAMIC",
               "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hwctNlweps8sKaK3pTZ4evtEuiOQRyvtnDz4NKmVTz41KiAFx%2FzWgjRp3T6ZP8ys7UcLEwSqdqRTSfB7zXNLN%2BX82wvQ1Y2gq9BpSCQEh7zr0y%2FYcFjZ5MBlRJ9FfA4D97UNErFoIvvQeejusXU%2BUdX%2B\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+              "Report-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=s9Fima%2B6fkAcI5%2BwMlorjC4lkNGhp8MZ5H58SD9OFtxjZEkpY0KHynUUvvreVXaGrOPLLaT3iqjGYQjfwCdZVvnkALru1S%2BiIKS6XCfIu7ROP%2FPd9DfvY2j8kyK2Zm%2BWNJozdQxXjV%2FJMlfJyXNScuhN\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
               "NEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
               "Server: cloudflare",
-              "CF-RAY: 6eb7f7d1eb7c9e70-SJC",
+              "CF-RAY: 6ec0a98c7c2a96ed-SJC",
               "alt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
             ],
             "responseHeaders": [
               {
                 "name": "Date",
-                "value": "Sun, 13 Mar 2022 21:47:26 GMT"
+                "value": "Mon, 14 Mar 2022 23:06:52 GMT"
               },
               {
                 "name": "Content-Type",
@@ -7403,7 +7403,7 @@
               },
               {
                 "name": "Report-To",
-                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hwctNlweps8sKaK3pTZ4evtEuiOQRyvtnDz4NKmVTz41KiAFx%2FzWgjRp3T6ZP8ys7UcLEwSqdqRTSfB7zXNLN%2BX82wvQ1Y2gq9BpSCQEh7zr0y%2FYcFjZ5MBlRJ9FfA4D97UNErFoIvvQeejusXU%2BUdX%2B\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+                "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=s9Fima%2B6fkAcI5%2BwMlorjC4lkNGhp8MZ5H58SD9OFtxjZEkpY0KHynUUvvreVXaGrOPLLaT3iqjGYQjfwCdZVvnkALru1S%2BiIKS6XCfIu7ROP%2FPd9DfvY2j8kyK2Zm%2BWNJozdQxXjV%2FJMlfJyXNScuhN\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
               },
               {
                 "name": "NEL",
@@ -7415,7 +7415,7 @@
               },
               {
                 "name": "CF-RAY",
-                "value": "6eb7f7d1eb7c9e70-SJC"
+                "value": "6ec0a98c7c2a96ed-SJC"
               },
               {
                 "name": "alt-svc",
